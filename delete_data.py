@@ -8,5 +8,5 @@ def delete_product(data):
         db.commit()
 
 if __name__ == "__main__":
-    data = ("Hellow",)
+    data = ("New Box",)
     delete_product(data)
